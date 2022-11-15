@@ -3,11 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package CompareTo;
+ 
+ /*
+Method compareTo() merupakan method yang berguna untuk membandingkan dua buah String
+berdasarkan dari urutan posisi kamus. Method ini akan mengembalikan nilai berupa integer
+yang menjelaskan apakah String awal yang dibandingkan lebih kecil atau lebih besar, atau
+bahkan setara.
+*/
 
-/**
- *
- * @author Gabriella Natasya
- */
 public class CompareToExample {
     public static void main(String[] args){
         String s1 = "Hello";
