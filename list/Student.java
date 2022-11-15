@@ -23,6 +23,11 @@ public class Student {
     static void addStudents(ArrayList<String> studentNames){
        studentNames.add("Gaby");
        studentNames.add("Tasya");
+       studentNames.add("Sya");
+       
+       studentNames.add(2,"Gabriel"); //add with index
+       
+       studentNames.remove("Sya"); // remove
     }
     
     static void displayStudents(ArrayList<String> studentNames){
